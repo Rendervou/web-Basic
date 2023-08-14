@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modern form</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Montserrat;
+            overflow: hidden;
+        
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(to top left, #545454, #d90000);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(https://e0.pxfuel.com/wallpapers/145/518/desktop-wallpaper-massachusetts-institute-of-technology-mit-university.jpg);
+            background-size: cover;
+        }
+        .panel{
+            width: 30%;
+            
+            padding: 20px;
+            
+        }
+
+        fieldset{
+            width: 90%;
+            background-color:#ffffff;
+            border: none;
+            box-shadow: 10px 10px 30px #00000023;
+            border-radius: 20px;
+        
+        }
+        legend{
+            text-align: center;
+            background: #ffff;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 10px #0000005b;
+            border-radius: 100px;
+
+        }
+        form{
+            width: 100%;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            
+        }
+        input{
+            width: 95%;
+            padding: 10px;
+            margin-top: 10px;
+            box-sizing: border-box;
+
+        }
+
+
+            
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="panel">
+            <fieldset>
+                <legend>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/2560px-MIT_logo.svg.png" width="50px" height="auto" ></legend>
+
+                    <form action="index.html" method="post"> 
+                        <input type="nama depan" required placeholder="Masukan Nama Depan">
+                        <input type="nama belakang" required placeholder="Masukan Nama Belakang">
+                        <input type="username"  required placeholder="Masukan Username">
+                        <input type="email" required placeholder="Masukan Email">
+                        <input type="password" required placeholder="Password">
+                        <input type="submit" class="btn-login" value="login">
+
+
+                    
+                    </form>
+                
+                </fieldset>
+
+        </div>
+    </div>
+</body>
+</html>
